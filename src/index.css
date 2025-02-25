@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.btn {
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: 2px solid coral;
+}
+.btn:hover {
+  background-color: coral;
+  color: #fff;
+}
+
+.head {
+  background-color: #0d263b;
+  color: #fff;
+}
+.head a:hover {
+  color: coral;
+}
+.head a {
+  padding: 5px 0;
+}
+
+.category {
+  /* float: left; */
+  width: 50%;
+  font-size: 25px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  margin: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+.image {
+  width: 280px;
+  height: 250px;
+  background-position: center;
+  box-sizing: border-box;
+}
+.categoryImg {
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+/* .serverTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
