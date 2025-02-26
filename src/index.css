@@ -37,7 +37,7 @@
   justify-content: space-between;
   margin: auto;
   font-weight: 600;
-  font-style: italic;
+  font-style: normal;
 }
 .image {
   width: 280px;
@@ -48,10 +48,16 @@
 .categoryImg {
   width: 25%;
   float: left;
-  padding: 20px;
+  /* padding: 20px; */
 }
-/* .serverTitle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+.text {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 20px 40px;
+}
+
+.images2{
+  width: 25%;
+  float: left;
+}

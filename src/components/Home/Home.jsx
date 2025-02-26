@@ -11,13 +11,13 @@ const Home = () => {
   const loading = isLoading || isLoadingProduct;
 
   return (
-    <div>
+    <div className="py-15">
       <div>
         {/* content section */}
         <div>
-          <h1>Modellar</h1>
+          <h1 className="text">Modellar</h1>
         </div>
-        <div className="">
+        <div>
           {categoryImage.map((value) => (
             <div className="categoryImg">
               <img className="image" src={value.src} />
